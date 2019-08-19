@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="title1">The lazy song</string>
+    <string name="artist1">Bruno Mars</string>
+    <string name="url1"><![CDATA[https://images.pexels.com/photos/909620/pexels-photo-909620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940]]></string>
+    <string name="url2"><![CDATA[https://images.pexels.com/photos/2179205/pexels-photo-2179205.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500]]></string>
+    <string name="artist2">Ed Sheeran</string>
+    <string name="title2">photograph</string>
+    <string name="title3">the climb</string>
+    <string name="artist3">Miley Cyrus</string>
+    <string name="url3"><![CDATA[https://images.pexels.com/photos/2404444/pexels-photo-2404444.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500]]></string>
+    <string name="title4">WAVING FLAG</string>
+    <string name="artist4">K\'naan</string>
+    <string name="url4"><![CDATA[https://images.pexels.com/photos/1571734/pexels-photo-1571734.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500]]></string>
+    <string name="title5">اضحك</string>
+    <string name="artist5">حمود الخضر</string>
+    <string name="url5"><![CDATA[https://images.pexels.com/photos/1680317/pexels-photo-1680317.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500]]></string>
+    <string name="title6">keep holding on</string>
+    <string name="artist6">Avril Lavigne</string>
+    <string name="url6"><![CDATA[https://images.pexels.com/photos/888899/pexels-photo-888899.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500]]></string>
+    <string name="songs_list">Songs List</string>
+    <string name="everything">Welcome to the Music App   Although it doesn\'t play muisc, everything else works   :)</string>
+    <string name="year1">2010</string>
+    <string name="year2">2014</string>
+    <string name="year3">2009</string>
+    <string name="year4">2009</string>
+    <string name="year5">2015</string>
+    <string name="year6">2007</string>
+    <string name="enter_the_app">Enter the App</string>
+    <string name="browseSongs">Browse Songs</string>
+    <string name="NowPlaying">Now Playing</string>
+
+
+</resources>
