@@ -4,9 +4,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
@@ -38,19 +41,9 @@ public class MusicListActivity extends AppCompatActivity {
         setContentView(R.layout.activity_music_list);
         setTitle(R.string.browseSongs);
         createSongs();
-        ListView listView = findViewById(R.id.songsListView);
-        SongsArrayAdapter adapter = new SongsArrayAdapter(this,R.layout.listitem,songs);
-        listView.setAdapter(adapter);
-
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent intent = new Intent(MusicListActivity.this,MusicDetailActivity.class);
-                intent.putExtra("SongList",songs);
-                intent.putExtra("index",i);
-                startActivity(intent);
-
-            }
-        });
+        RecyclerView recyclerView = findViewById(R.id.songsListView);
+        MusicRecycleAdapter adapter = new MusicRecycleAdapter(this,songs);
+        recyclerView.setAdapter(adapter);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
     }
 }
